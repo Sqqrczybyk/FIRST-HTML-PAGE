@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<link rel="stylesheet" type="text/css" href="styleportf.css" />
+	<link rel="stylesheet" type="text/css" href="css/fontello.css" />
+	<link href='https://fonts.googleapis.com/css?family=Arimo|Shadows+Into+Light+Two&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+	
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js" ></script>
+	<script type="text/javascript" src="http://malsup.github.com/jquery.cycle.all.js"></script>
+	<script type="text/javascript" >
+		$(document).ready(function(){
+		$('.rsfirst')
+		.after('<div class="menu">')
+		.cycle({
+		fx: 'scrollHorz',
+		speed: 'fast',
+		timeout: 10000,
+		next: '.rsfirst',
+		pager: '.menu'
+		});
+		});
+	</script>
+</head>
+
+<body>
+
+	<div id="main">
+	
+		<div>
+		
+			<div id="name"><a href="portf.html" class="amain">Ernest Łach</a></div>
+			<div style="clear: both;"></div>
+		</div>
+		
+		<div id="leftside">
+		
+			<div class="lsfirst"><a href="O mnie.html" class="qlink">O mnie<br><i class="icon-user"></i></a></div>
+			<div class="lstwo"><a href="Zainteresowania.html" class="qlink">Zainteresowania
+				<div class="interests"><i class="icon-music"></i></div>
+				<div class="interests"><i class="icon-beaker"></i></div>
+				<div style="clear: both;"></div>
+				<div class="interests"><i class="icon-food"></i></div>
+				<div class="interests"><i class="icon-desktop"></i></div></a>
+			</div>
+			<div style="clear: both;"></div>
+			<div class="lsthree"><a href="CV.html" class="qlink">Curriculum vitae<br><i class="icon-list-alt"></i></a></div>
+			<div class="lsfour"><a href="Kontakt.html" class="qlink">Konkakt<br><i class="icon-email"></i></a></div>
+			<div style="clear: both;"></div>
+			<div class="lsfive">Programowanie kluczem do sukcesu.<br><i class="icon-award"></i></div>
+			
+		</div>
+	
+		<div id="rightside">
+		
+			<div class="rsfirst">
+			
+				<div class="slide">
+				
+						<p style="font-size: 20px; font-family: agency fb; color: #bbb">Moją największą pasją jest muzyka. Ulubionymi gatunkami jest rock i heavy metal. Do mojego gustu zaczyna przemawiać również dubstep. Gram też na gitarze i znam podstawy keyboardu. :) </p>
+						
+				</div>
+				
+				<div class="slide">
+				
+						<img src="Zdjecia/guitar.png" width="500" height="304"/>
+						
+				</div>
+				
+				<div class="slide">
+				
+						<p style="font-size: 20px; font-family: agency fb; color: #bbb">Coraz więcej uwagi poświęcam e-sportowi. Najbardziej interesujące według mnie to Counter Strike Global Offensive oraz Starcraft II. Może kiedyś uda się zostać testerem nowej produkcji!</p>
+						
+				</div>
+				
+			</div>
+			<div style="clear: both;"></div>
+			<div class="fb"><a href="http://facebook.com/ernest.lach" target="_blank" class="slink"><i class="icon-facebook-official"></i></a></div>
+			<div class="wykop"><a href="http://www.wykop.pl/ludzie/Sqqrczybyk/" target="_blank" class="slink";><img src="Zdjecia/wykop.png" style="margin-top: 60px" width="100px" height="25"/></a></div>
+			<div class="yt"><a href="https://www.youtube.com/" target="_blank" class="slink"><i class="icon-youtube"></i></a></div>
+			<div style="clear: both;"></div>
+			
+		</div>
+		<div style="clear: both;"></div>
+		<div id="footer">2016 &copy; Ernest Łach	Portfolio.</div>
+		
+	</div>
+	
+</body>
+
+</html>
